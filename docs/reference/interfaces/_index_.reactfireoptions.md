@@ -20,6 +20,7 @@ Name | Default |
 
 * [idField](_index_.reactfireoptions.md#idfield)
 * [initialData](_index_.reactfireoptions.md#initialdata)
+* [startWithValue](_index_.reactfireoptions.md#startwithvalue)
 * [suspense](_index_.reactfireoptions.md#suspense)
 
 ## Properties
@@ -28,7 +29,7 @@ Name | Default |
 
 • `Optional` **idField**: undefined \| string
 
-*Defined in [src/index.ts:11](https://github.com/FirebaseExtended/reactfire/blob/16b6188/src/index.ts#L11)*
+*Defined in [src/index.ts:11](https://github.com/FirebaseExtended/reactfire/blob/master/src/index.ts#L11)*
 
 ___
 
@@ -36,7 +37,17 @@ ___
 
 • `Optional` **initialData**: T \| any
 
-*Defined in [src/index.ts:12](https://github.com/FirebaseExtended/reactfire/blob/16b6188/src/index.ts#L12)*
+*Defined in [src/index.ts:12](https://github.com/FirebaseExtended/reactfire/blob/master/src/index.ts#L12)*
+
+___
+
+### startWithValue
+
+• `Optional` **startWithValue**: T \| any
+
+*Defined in [src/index.ts:16](https://github.com/FirebaseExtended/reactfire/blob/master/src/index.ts#L16)*
+
+**`deprecated`** use initialData instead
 
 ___
 
@@ -44,4 +55,4 @@ ___
 
 • `Optional` **suspense**: undefined \| false \| true
 
-*Defined in [src/index.ts:13](https://github.com/FirebaseExtended/reactfire/blob/16b6188/src/index.ts#L13)*
+*Defined in [src/index.ts:17](https://github.com/FirebaseExtended/reactfire/blob/master/src/index.ts#L17)*

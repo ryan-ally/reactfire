@@ -43,6 +43,7 @@ Depending on your targeted platforms you may need to install polyfills. The most
 ## Docs
 
 - [**Quickstart**](./docs/quickstart.md)
+  - Advanced: If you're using Concurrent Mode, check out the [Concurrent Mode quickstart](./docs/quickstart-concurrent-mode.md)
 - [**Common Use Cases**](./docs/use.md)
 - [**API Reference**](./docs/reference/globals.md)
 
@@ -55,8 +56,8 @@ Check out the
 import React, { Component } from 'react';
 import { render } from 'react-dom';
 
-import 'firebase/database';
-import { FirebaseAppProvider, useFirestoreDocData, useFirestore, SuspenseWithPerf } from 'reactfire';
+import 'firebase/firestore';
+import { FirebaseAppProvider, useFirestoreDocData, useFirestore } from 'reactfire';
 
 const firebaseConfig = {
   /* Add your config from the Firebase Console */
@@ -69,11 +70,11 @@ function Burrito() {
     .doc('burrito');
 
   // subscribe to a document for realtime updates. just one line!
-  const {status, data} = useFirestoreDocData(burritoRef);
+  const { status, data } = useFirestoreDocData(burritoRef);
 
   // easily check the loading status
   if (status === 'loading') {
-    return <p>Fetching burrito flavor...</p>
+    return <p>Fetching burrito flavor...</p>;
   }
 
   return <p>The burrito is {data.yummy ? 'good' : 'bad'}!</p>;
@@ -88,7 +89,7 @@ function App() {
   );
 }
 
-render(render(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
 ```
 
 ---

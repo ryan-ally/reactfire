@@ -23,4 +23,5 @@ reactfire-*.tgz
 reactfire.tgz
 package/
 docs/reference/README.md
-
+publish.sh
+unpack.sh
