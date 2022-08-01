@@ -74,7 +74,7 @@
     "firebase-tools": "^8.16.2",
     "globalthis": "^1.0.1",
     "husky": "^4.3.0",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^3.2.10",
     "react": "experimental",
     "react-dom": "experimental",
     "react-test-renderer": "^16.13.1",
