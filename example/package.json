@@ -11,7 +11,7 @@
     "display": "^0.1.9",
     "react-app-polyfill": "^1.0.0",
     "react-firebaseui": "^4.2.0",
-    "tailwindcss": "^1.9.1"
+    "tailwindcss": "^2.2.0"
   },
   "alias": {
     "react": "../node_modules/react",
@@ -24,7 +24,7 @@
     "@types/react": "^16.9.11",
     "@types/react-dom": "^16.8.4",
     "babel-preset-env": "^1.7.0",
-    "parcel": "^1.12.3",
+    "parcel": "^2.0.0",
     "typescript": "^3.4.5"
   }
 }
