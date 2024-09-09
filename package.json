@@ -78,7 +78,7 @@
     "react": "experimental",
     "react-dom": "experimental",
     "react-test-renderer": "^16.13.1",
-    "size-limit": "^4.6.0",
+    "size-limit": "^11.1.5",
     "tsdx": "^0.14.1",
     "tslib": "^2.0.1",
     "typedoc": "^0.19.2",
